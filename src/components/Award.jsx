@@ -4,13 +4,13 @@ import "../index.css";
 
 function Award({ title, name, desc, pic }) {
   return (
-    <div className="flex flex-row items-start bg-primary overflow-hidden max-w-3xl mx-auto">
+    <div className="flex flex-row items-start bg-primary overflow-hidden max-w-3xl mx-auto pl-4 py-4">
       {/* Image Section */}
       <div className="w-1/3">
         <img
           src={pic}
           alt="personal headshot"
-          className="h-auto rounded-full object-cover shadow-lg my-4"
+          className="h-auto md:h-[250px] rounded-full object-cover shadow-lg my-4"
         />
       </div>
       {/* Text Section */}
