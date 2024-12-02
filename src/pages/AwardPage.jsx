@@ -18,7 +18,7 @@ function AwardsPage() {
           </h1>
         </div>
       </header>
-      <div id="awardPage" className="bg-primary">
+      <div id="awardPage" className="bg-primary pb-[120px]">
         {awardsData.map((award, index) => (
           <div className="" key={index}>
             <Award
