@@ -12,7 +12,7 @@ function AwardsPage() {
           className="h-16 sm:h-20 md:h-[140px] ml-4"
         />
         {/* Text on the Right */}
-        <div className="ml-auto sm:ml-6 md:ml-8">
+        <div className="ml-auto sm:ml-6 md:ml-8 p-4 sm:p-6 md:p-7">
           <h1 className="text-2xl md:text-4xl text-primary-text font-bold font-bebas tracking-wider">
             2024 Winners
           </h1>

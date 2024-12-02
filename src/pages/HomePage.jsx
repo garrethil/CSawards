@@ -6,7 +6,7 @@ function HomePage() {
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
       {/* Header */}
-      <header className="absolute flex top-0 w-full bg-primary text-white p-8 shadow-lg">
+      <header className="absolute text-secondary flex top-0 w-full bg-primary p-8 shadow-lg">
         <h2 className="text-2xl md:text-4xl p-4 sm:p-6 md:p-7 ml-auto font-bebas tracking-wider">
           2024 winners
         </h2>
