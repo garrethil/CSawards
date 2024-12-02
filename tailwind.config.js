@@ -33,6 +33,10 @@ export default {
           text: "#e32f8d",
         },
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"], // Add Roboto as a sans-serif font
+        bebas: ["Bebas Neue", "cursive"], // Add Bebas Neue as a display font
+      },
     },
   },
   plugins: [],

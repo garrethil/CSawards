@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import TwinklingStar from "./TwinklingStar";
 import "../index.css";
 
 function Award({ title, name, desc, pic }) {
@@ -10,16 +9,21 @@ function Award({ title, name, desc, pic }) {
         <img
           src={pic}
           alt="personal headshot"
-          className="h-auto md:h-[250px] rounded-full object-cover shadow-lg my-4"
+          className="h-auto rounded-full object-cover shadow-lg my-4"
         />
       </div>
       {/* Text Section */}
-      <div className="p-6 w-2/3">
-        <h2 className="text-2xl text-primary-text font-bold mb-2">{title}</h2>
-        <p className="text-secondary mb-4">{desc}</p>
+      <div className="ml-2 p-6 w-2/3">
+        <h2 className="text-2xl md:text-4xl text-primary-text font-bold mb-2 font-bebas tracking-wide">
+          {title}
+        </h2>
+        <p className="text-secondary sm:text-[18px] md:text-[24px] mb-6 font-roboto tracking-wide font-light">
+          {desc}
+        </p>
         <button className="bg-primary-text text-primary px-4 py-2 hover:shadow-lg">
-          <TwinklingStar />
-          <span className="ml-2">{name}</span>
+          <p className="sm:text-[16px] md:text-[20px]">
+            <span className="mr-2">★</span> {name}
+          </p>
         </button>
       </div>
     </div>

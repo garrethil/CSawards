@@ -7,7 +7,7 @@ function HomePage() {
 
       {/* Header */}
       <header className="absolute flex top-0 w-full bg-primary text-white p-8 shadow-lg">
-        <h2 className="text-2xl sm:text-3xl p-4 sm:p-6 md:p-7 ml-auto">
+        <h2 className="text-2xl md:text-4xl p-4 sm:p-6 md:p-7 ml-auto font-bebas tracking-wider">
           2024 winners
         </h2>
       </header>
@@ -16,11 +16,11 @@ function HomePage() {
       <div className="relative flex flex-col items-center justify-center h-full">
         {/* Container with consistent width */}
         <div className="flex flex-col justify-center items-center text-center">
-          <h1 className="text-secondary-text font-bold text-[40px] md:text-[48px] lg:text-[55px] my-2 sm:mb-3 md:mb-4">
+          <h1 className="text-secondary-text font-bold text-[40px] md:text-[48px] lg:text-[60px] my-2 sm:mb-3 md:mb-4 font-bebas tracking-wider">
             1st Annual
           </h1>
           <img src="images/logo.png" alt="Logo" className="h-[35%]" />
-          <h3 className="text-secondary font-thin text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px] mt-[10%]">
+          <h3 className="text-secondary text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px] mt-[10%] font-roboto font-thin">
             where C+S quirks meet kudos
           </h3>
         </div>
