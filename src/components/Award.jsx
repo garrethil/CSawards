@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import TwinklingStar from "./TwinklingStar";
 import "../index.css";
 
 function Award({ title, name, desc, pic }) {
@@ -16,8 +17,9 @@ function Award({ title, name, desc, pic }) {
       <div className="p-6 w-2/3">
         <h2 className="text-2xl text-primary-text font-bold mb-2">{title}</h2>
         <p className="text-secondary mb-4">{desc}</p>
-        <button className="bg-primary-text text-primary px-4 py-2">
-          {name}
+        <button className="bg-primary-text text-primary px-4 py-2 hover:shadow-lg">
+          <TwinklingStar />
+          <span className="ml-2">{name}</span>
         </button>
       </div>
     </div>

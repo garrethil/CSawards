@@ -10,6 +10,7 @@ function App() {
         <HomePage />
       </div>
       <div id="awardPage" className="bg-primary">
+        <header className="h-100px bg-primary-text"></header>
         {awardsData.map((award, index) => (
           <div className="" key={index}>
             <Award
