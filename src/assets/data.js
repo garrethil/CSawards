@@ -1,4 +1,4 @@
-const awards = [
+const awardsData = [
   {
     title: "ELSA AWARD",
     name: "Sara Audrain",
@@ -67,4 +67,4 @@ const awards = [
   },
 ];
 
-export default awards;
+export default awardsData;
