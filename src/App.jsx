@@ -11,7 +11,7 @@ function App() {
       </div>
       <div id="awardPage" className="bg-primary">
         {awardsData.map((award, index) => (
-          <div key={index}>
+          <div className="" key={index}>
             <Award
               title={award.title}
               name={award.name}
