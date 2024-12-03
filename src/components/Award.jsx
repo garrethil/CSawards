@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import "../index.css";
 
 function Award({ title, name, desc, pic }) {
+  const borderClass = name === "Andrew Parsons" ? "border border-white-3" : "";
   return (
     <div className="flex flex-row items-start bg-primary overflow-hidden max-w-3xl mx-auto pl-4 py-4">
       {/* Image Section */}
@@ -9,7 +10,7 @@ function Award({ title, name, desc, pic }) {
         <img
           src={pic}
           alt="personal headshot"
-          className="h-auto rounded-full object-cover shadow-lg my-4"
+          className={`h-auto rounded-full object-cover shadow-lg my-4 ${borderClass}`}
         />
       </div>
       {/* Text Section */}
