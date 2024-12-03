@@ -8,7 +8,7 @@ function App() {
       <div className="min-h-screen">
         <HomePage />
       </div>
-      <div id="awardPage" className="bg-primary">
+      <div id="awards" className="bg-primary">
         <AwardsPage />
       </div>
     </div>

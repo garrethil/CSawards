@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        homepage: "url('/images/BgHomepage.png')",
+        homepageBig: "url('/images/BgHomepage.png')",
+        homepageSmall: "url('/images/mobileBG.png')",
       },
       animation: {
         sparkle: "sparkle 1.5s infinite ease-in-out",
