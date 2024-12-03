@@ -30,7 +30,7 @@ function HomePage() {
             1st Annual
           </h1>
           <img src="images/logo.png" alt="Logo" className="h-[35%]" />
-          <h3 className="text-secondary text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px] mt-[10%] font-roboto font-thin">
+          <h3 className="text-secondary text-[20px] sm:text-[30px] md:text-[35px] lg:text-[40px] mt-[10%] font-roboto font-thin italic">
             where C+S quirks meet kudos
           </h3>
         </div>
