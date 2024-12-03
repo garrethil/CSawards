@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         homepageBig: "url('/images/BgHomepage.png')",
-        homepageSmall: "url('/images/mobileBG.png')",
+        homepageSmall: "url('/images/mobileHomepage.png')",
       },
       animation: {
         sparkle: "sparkle 1.5s infinite ease-in-out",
