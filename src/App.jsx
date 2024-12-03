@@ -1,6 +1,7 @@
-import "./index.css";
 import HomePage from "./pages/HomePage";
 import AwardsPage from "./pages/AwardPage";
+
+import "./index.css";
 
 function App() {
   return (
