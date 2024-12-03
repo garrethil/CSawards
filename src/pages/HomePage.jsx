@@ -15,7 +15,7 @@ function HomePage() {
       <div className="absolute top-0 left-0 w-full h-[350px] bg-gradient-to-b from-black to-transparent"></div>
 
       {/* Tint Overlay */}
-      <div className="absolute h-max inset-0 bg-black bg-opacity-60"></div>
+      <div className="absolute bg-cover inset-0 bg-black bg-opacity-60"></div>
 
       {/* Header */}
       <div className="absolute bg-primary top-0 left-0 w-full flex justify-end items-center p-4 sm:p-6 z-50">
