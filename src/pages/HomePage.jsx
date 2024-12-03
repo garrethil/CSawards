@@ -10,7 +10,7 @@ function HomePage() {
   };
 
   return (
-    <div className="h-screen w-screen bg-homepageSmall md:bg-homepageBig bg-cover bg-center bg-no-repeat flex items-center justify-center">
+    <div className="h-screen w-screen bg-homepageBig bg-cover bg-center bg-no-repeat flex items-center justify-center">
       {/* Gradient Overlay */}
       <div className="absolute top-0 left-0 w-full h-[350px] bg-gradient-to-b from-black to-transparent"></div>
 
