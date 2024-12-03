@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        homepageBig: "url('/images/BgHomepage.png')",
-        homepageSmall: "url('/images/mobileHomepage-1.webp')",
+        homepageBig: "url('/images/mainBG.png')",
+        homepageSmall: "url('/images/mobileBG.png')",
       },
       colors: {
         primary: {
