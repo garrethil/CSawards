@@ -10,7 +10,7 @@ function HomePage() {
   };
 
   return (
-    <div className="h-screen w-screen bg-homepageSmall md:bg-homepageBig bg-cover bg-center bg-no-repeat flex items-center justify-center">
+    <div className="relative h-screen w-screen bg-homepageSmall md:bg-homepageBig bg-cover bg-center bg-no-repeat flex items-center justify-center">
       {/* Tint Overlay */}
       <div className="absolute inset-0 bg-cover bg-black bg-opacity-60"></div>
 
